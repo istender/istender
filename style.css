@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+/* Nav CSS */
+nav ul{
+	list-style-type: none;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	background: rgb(116,115,120);
+	background: linear-gradient(90deg, rgba(116,115,120,1) 0%, rgba(230,230,230,1) 100%);
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: black;
+}
+nav a:visited{
+	color: black;
+}
+nav a:hover{
+	color: lightblue;
+	text-decoration: none;
+}
+nav a:active{
+	color: black;
+}
+/*Footer CSS*/
+footer{
+	text-align: center;
+	padding-top: 20px;
+	background: rgb(116,115,120);
+	background: linear-gradient(90deg, rgba(116,115,120,1) 0%, rgba(230,230,230,1) 100%);
+}
+footer a:link{
+	color: black;
+}
+footer a:hover{
+	color: lightblue;
+	text-decoration: none;
+}
+/*Headers CSS*/
+h1{
+	font-size: 3em;
+	font-family: 'Bebas Neue', cursive;
+}
+h2{
+	font-family: 'Bebas Neue', cursive;
+	padding-left: 20px;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/*CSS for the Table*/
+table{
+	background-color: white;
+	border-spacing: 0;
+	margin-bottom: 75px;
+}
+td,th{
+	border: 2px solid lightgray;
+		line-height: 1.5;
+	padding: 5px;
+}
+th{
+	background-color: darkgray;
+	color: white;
+}
+/*CSS for the Form*/
+form{
+	background-color: lightblue;
+    border: 1px, navy;
+    padding: 25px;
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 3px black;
+}
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+input[type=submit]{
+	display: block;
+	background-color: lightgray;
+}
+/*CSS for the About Me page*/
+.about{
+	padding-bottom: 45px;
+}
+.me{
+	float: left;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	padding-right: 20px;
+	padding-bottom: 45px;
+}
+/*CSS for the Portfolio page*/
+.portfolio{
+	float: left;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 45px;
+}
+/*Logo and Icons CSS*/
+.logo{
+	margin: 0 auto;
+	display:block;
+}
+i.fa{
+	color: black;
+	font-size: 2em;
+}
+/*Other CSS*/
+main{
+	padding-top: 25px;
+}

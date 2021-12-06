@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo.png" alt="Portfolio Logo" height="100" width="300" class="img-fluid logo">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</li></a>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="form.html">Form</a></li>
+			<li><a href="portfolio.html">Portfolio</li></a>
+		</ul>
+	</nav>
+	<main>
+		<!--This is the main section-->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3">
+					<h2>My Form</h2>
+					<p>I made this form using HTML and CSS. This form can't be used to contact me, but it will process with a PHP script. If you fill it out and click the "Submit" button, the form will check for completeness and print your responses to the screen.</p>
+				</div>
+			<div class="col-sm-9">
+		<form method="post" action="https://webdevstudents.com/portfolio/submit-form.php">
+			<label for="first_name">*First Name</label> 
+				<input type="text" id="first_name" name="first_name" required>
+			<label for="last_name">*Last Name</label> 
+				<input type="text" id="last_name" name="last_name" required>
+			<label for="email">*Email</label> 
+				<input type="email" id="email" name="email" required>
+			<label for="phone">Phone</label> 
+				<input type="tel" id="phone" name="phone">
+			<label for="comments">*Your Report</label> 
+				<textarea id="comments" name="comments"></textarea>
+			<input type="submit" value="Submit">
+		</form>
+		</div>
+	</div>
+</div>
+		<br>
+	</main>
+	<footer>
+		<div class="row icons">
+			<div class="col-sm-4">
+				<a href="https://github.com/istender">
+					<i class="fa fa-github" aria-hidden="true"></i>
+					<h4>GitHub</h4>
+				</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="https://www.linkedin.com/in/isaac-stender-4276ab224/">
+					<i class="fa fa-linkedin" aria-hidden="true"></i>
+					<h4>LinkedIn</h4></a>
+				</div>
+			<div class="col-sm-4">
+				<a href="mailto:js3646sm@go.minnstate.edu">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					<h4>Email</h4>
+				</a>
+			</div>
+		</div>
+		<br><small>&copy; 2021 Isaac Stender. All Rights Reserved. 
+			<br>
+		The logo uses a royalty-free image from pixabay.com
+		</small>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
